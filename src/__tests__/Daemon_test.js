@@ -1,7 +1,7 @@
-import Daemon from '../src/Daemon';
+import Daemon from '../Daemon';
 
 // Проверяем класс Deamon
-describe('Daemon', () => {
+export default describe('Daemon', () => {
   it('should create a Daemon with the correct properties', () => {
     const daemon = new Daemon('Lilith');
     expect(daemon.name).toBe('Lilith');

@@ -1,7 +1,7 @@
-import Magician from '../src/Magician';
+import Magician from '../Magician';
 
 // Проверяем класс Magician
-describe('Magician', () => {
+export default describe('Magician', () => {
   it('should create a Magician with the correct properties', () => {
     const magician = new Magician('Gandalf');
     expect(magician.name).toBe('Gandalf');

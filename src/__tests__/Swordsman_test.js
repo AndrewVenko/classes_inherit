@@ -1,7 +1,7 @@
-import Swordsman from '../src/Swordsman';
+import Swordsman from '../Swordsman';
 
 // Проверяем класс Swordsman
-describe('Swordsman', () => {
+export default describe('Swordsman', () => {
   it('should create a Swordsman with the correct properties', () => {
     const swordsman = new Swordsman('Aragorn');
     expect(swordsman.name).toBe('Aragorn');

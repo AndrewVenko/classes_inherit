@@ -1,7 +1,7 @@
-import Character from '../src/Character';
+import Character from '../Character';
 
 // Проверяем класс Character
-describe('Character', () => {
+export default describe('Character', () => {
   it('should create a new character with valid name', () => {
     const character = new Character('John');
     const objectCharacter = {

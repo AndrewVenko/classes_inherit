@@ -1,7 +1,7 @@
-import Undead from '../src/Undead';
+import Undead from '../Undead';
 
 // Проверяем класс Undead
-describe('Undead', () => {
+export default describe('Undead', () => {
   it('should create a Undead with the correct properties', () => {
     const undead = new Undead('Artorias');
     expect(undead.name).toBe('Artorias');

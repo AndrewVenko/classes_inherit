@@ -1,7 +1,7 @@
-import Zombie from '../src/Zombie';
+import Zombie from '../Zombie';
 
 // Проверяем класс Zombie
-describe('Zombie', () => {
+export default describe('Zombie', () => {
   it('should create a Zombie with the correct properties', () => {
     const zombie = new Zombie('Dolores');
     expect(zombie.name).toBe('Dolores');
